@@ -13,3 +13,4 @@ Running `get_geojson.sh` will create a `data` directory with 3 files for each st
 - `UF_municipalities.json`: GeoJSON file for the IBGE municipalities (municipios) within a particular Unidade Federativa (UF)
 - `UF_microregions.json`: GeoJSON file for the IBGE microregions (microrregiões) within a UF
 - `UF_mesoregions.json`: GeoJSON file for the IBGE mesoregions (mesorregiões) within a UF
+- `UF_state.json`: GeoJSON file for the geometry of each UF
