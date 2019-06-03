@@ -1,7 +1,7 @@
 ## Brazil GeoJSON Data
 
 Creates GeoJSON map data for Brazilian states and the entire country using the data published by the [IBGE (Instituto Brasileiro de Geografia e Estatistica)](http://www.ibge.gov.br/).
-This code currently uses the most recent data published March 25, 2019 and represents the 2018 dataset. You can read more about the dataset [here](ftp://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2018/Leia_me_Malha_Digital_2018.pdf).
+This code currently uses the most recent data published March 25, 2019 and represents the 2018 dataset. You can read more about the dataset [here](https://bit.ly/2MpSK22).
 
 ### Dependencies
 
