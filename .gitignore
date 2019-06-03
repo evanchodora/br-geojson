@@ -1,0 +1,6 @@
+# Directories
+data
+tmp
+
+# Docker files
+Dockerfile
