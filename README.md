@@ -9,8 +9,13 @@ The script uses `ogr2ogr` to convert the files from Shapefiles to GeoJSON. It is
 
 ### Outputs
 
-Running `get_geojson.sh` will create a `data` directory with 3 files for each state + the entire country:
+Running `get_geojson.sh` will create a `data` directory with 4 files for each state (and optionally the entire country):
 - `UF_municipalities.json`: GeoJSON file for the IBGE municipalities (municipios) within a particular Unidade Federativa (UF)
 - `UF_microregions.json`: GeoJSON file for the IBGE microregions (microrregiões) within a UF
 - `UF_mesoregions.json`: GeoJSON file for the IBGE mesoregions (mesorregiões) within a UF
 - `UF_state.json`: GeoJSON file for the geometry of each UF
+
+#### Options
+
+- `-c` or `--clean`: will delete the tmp directory created to store all the original Shapefiles upon completion
+- `-b` or `--brasil`: will optionally download every municipality, mesoregion, etc. for the whole country as one file (large files)
