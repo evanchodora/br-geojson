@@ -41,7 +41,7 @@ done
 shift $((OPTIND-1))
 
 # Base URL for downloading data
-base_url="ftp://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2018"
+base_url="ftp://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019"
 
 # Array of state abbreviations
 states=(ac al am ap ba ce df es go ma
